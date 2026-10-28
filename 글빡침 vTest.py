@@ -153,9 +153,11 @@ def game():
             elif choice3 == 'ⓜ리오':
                 say('이런! 저작권의 킹 Mr.판사가 나타났다!')
                 say('(이 선택은 소송 루트라는 별다른 스토리로 진행될 예정입니다.)')
+                game_over()
             elif choice3 == 'GIGACHAD🗿🗿🗿🗿🗿🗿🗿':
                 say('🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🗿🗿🗿🗿🗿🗿🗿🗿')
                 say('(곧 더 많은 문항이 추가될 것입니다.)')
+                game_over()
             else:
                 say('poop')
         elif choice2 == '더 자기':
