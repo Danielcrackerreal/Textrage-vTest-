@@ -173,6 +173,7 @@ def game():
                 elif choice3 == 'ⓜ리오':
                     say('이런! 저작권의 킹 Mr.판사가 나타났다!')
                     say('미안하네. 난 진짜 Mr.판사가 아니라네. 진짜 Mr.판사는 다음 업데이트때 올 거야.')
+                    game_over()
                 elif choice3 == 'GIGACHAD🗿🗿🗿🗿🗿🗿🗿':
                     say('🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🤫🗿🗿🗿🗿🗿🗿🗿🗿')
                     say('좀 치네? 여기 이걸 주겠네.')
@@ -195,7 +196,7 @@ def game():
                         say('이 비행기는\n이스터 섬으로 간다.')
                         say('모아이 만나러 가자아아아아아아아아!!!!!!!!!!!')
                         say('데모 끝')
-                        choicel = make_choices('끝')
+                        game_over()
                     else:
                         say('p')  
                 else:
